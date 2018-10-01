@@ -1,6 +1,6 @@
 {% set name = "click-help-colors" %}
-{% set version = "0.4" %}
-{% set sha256 = "0cf523af04a6c7344443ef48246f7efe3d6275bcd77b6e79782a274e7c57626b" %}
+{% set version = "0.5" %}
+{% set sha256 = "1012611344706d0da2f8642faa61843118824a54c9950c14f5122518eb01ae6b" %}
 
 
 package:
@@ -14,7 +14,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
