@@ -1,6 +1,6 @@
 {% set name = "click-help-colors" %}
-{% set version = "0.5" %}
-{% set sha256 = "1012611344706d0da2f8642faa61843118824a54c9950c14f5122518eb01ae6b" %}
+{% set version = "0.6" %}
+{% set sha256 = "258d5f4d79e54af8d017c07313456db22e636c964dd0808a2fb0aefc654ee30c" %}
 
 
 package:
