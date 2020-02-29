@@ -1,6 +1,6 @@
 {% set name = "click-help-colors" %}
-{% set version = "0.6" %}
-{% set sha256 = "258d5f4d79e54af8d017c07313456db22e636c964dd0808a2fb0aefc654ee30c" %}
+{% set version = "0.7" %}
+{% set sha256 = "fa574d591ee1d80e6da035df9f471cf0248060c177ff8f99008e45b8401c7fe2" %}
 
 
 package:
@@ -15,7 +15,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -34,9 +34,10 @@ test:
 about:
   home: https://github.com/r-m-n/click-help-colors
   license: MIT
+  license_file: LICENSE.txt
   # License file missing on pypi. See: https://github.com/r-m-n/click-help-colors/issues/2
   #license_file: LICENSE.txt
-  summary: 'Colorization of help messages in Click'
+  summary: Colorization of help messages in Click
   dev_url: https://github.com/r-m-n/click-help-colors
   license_family: MIT
 
