@@ -5,11 +5,11 @@ Home: https://github.com/r-m-n/click-help-colors
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/click-help-colors-feedstock/blob/master/LICENSE.txt)
 
 Summary: Colorization of help messages in Click
 
-
+Development: https://github.com/r-m-n/click-help-colors
 
 Current build status
 ====================
